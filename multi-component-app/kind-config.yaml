@@ -10,5 +10,5 @@ nodes:
     extraMounts:
       - hostPath: /home/skerry/devops-labs-kubernetes/multi-component-app/data
         containerPath: /mnt/mongo-data
-  # A second worker for other workloads (e.g. the Express Web App).
+  # A second worker for other workloadss (e.g. the Express Web App).
   - role: worker
